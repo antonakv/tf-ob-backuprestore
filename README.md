@@ -18,13 +18,13 @@ Tested on Mac OS X.
 - Clone git repository. 
 
 ```bash
-git clone https://github.com/antonakv/tf-ob-backup.git
+git clone https://github.com/antonakv/tf-ob-backuprestore.git
 ```
 
 Expected command output looks like this:
 
 ```bash
-Cloning into 'tf-ob-backup'...
+Cloning into 'tf-ob-backuprestore'...
 remote: Enumerating objects: 12, done.
 remote: Counting objects: 100% (12/12), done.
 remote: Compressing objects: 100% (12/12), done.
