@@ -36,12 +36,10 @@ Resolving deltas: 100% (1/1), done.
 - Change folder to tf-ob-backup
 
 ```bash
-cd tf-ob-backup
+cd tf-ob-backuprestore
 ```
 
-- To get Backup API token follow the manual 
-
-[Authentication](https://www.terraform.io/enterprise/admin/infrastructure/backup-restore#authentication)
+- Follow the manual to get Backup API token: [Authentication](https://www.terraform.io/enterprise/admin/infrastructure/backup-restore#authentication)
 
 - Edit scripts backup.sh and restore.sh
 
