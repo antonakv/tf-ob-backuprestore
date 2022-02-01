@@ -41,9 +41,10 @@ cd tf-ob-backuprestore
 
 - Follow the manual to get Backup API token: [Authentication](https://www.terraform.io/enterprise/admin/infrastructure/backup-restore#authentication)
 
-- Edit scripts backup.sh and restore.sh
+- Edit script backup.sh
 
 Replace TOKEN variable in scripts with backup token value get on the previous step
+
 Replace https://192.168.56.33.nip.io with actual Terraform Enterprise instance URL
 
 - Run backup.sh
@@ -114,6 +115,16 @@ Note: Unnecessary use of -X or --request, POST is already inferred.
 * Closing connection 0
 
 ```
+
+- Prepare New Terraform Enterprise installation
+
+- Follow the manual to get Backup API token from the New Terraform installation. URL: [Authentication](https://www.terraform.io/enterprise/admin/infrastructure/backup-restore#authentication)
+
+- Edit script restore.sh
+
+Replace TOKEN variable in scripts with backup token value get on the previous step
+
+Replace https://192.168.56.33.nip.io with actual Terraform Enterprise instance URL
 
 - Run restore.sh script
 
