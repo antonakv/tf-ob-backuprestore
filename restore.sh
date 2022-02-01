@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 export TOKEN="7oAArDQ2tzSSyirzRj2GPPSTDTHQCWz8"
 curl \
-  --header "Authorization: Bearer $TOKEN" \
+  --header "Authorization: Bearer ${TOKEN}" \
   -kv \
   --request POST \
   --form config=@payload.json \
