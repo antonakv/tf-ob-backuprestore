@@ -179,3 +179,5 @@ snapshot applied successfully
 * Connection #0 to host 192.168.56.33.nip.io left intact
 * Closing connection 0
 ```
+
+- Restart the Terraform Enterprise on new instance. Manual: [Restarting Terraform Enterprise](https://support.hashicorp.com/hc/en-us/articles/360047602093-Restarting-Terraform-Enterprise)
