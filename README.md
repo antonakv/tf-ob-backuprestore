@@ -126,7 +126,7 @@ Replace TOKEN variable in scripts with backup token value get on the previous st
 
 Replace https://192.168.56.33.nip.io with actual Terraform Enterprise instance URL
 
-- Run restore.sh script
+- Run restore.sh script to restore snapshot from the backup.blob downloaded by backup.sh script
 
 ```
 $ ./restore.sh 
